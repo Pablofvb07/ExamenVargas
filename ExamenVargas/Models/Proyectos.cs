@@ -9,6 +9,7 @@ namespace ExamenVargas.Models
 {
     public class Proyectos
     {
+        [PrimaryKey, AutoIncrement]
         public int id { get; set; }
         public string NombreProyecto { get; set; }
         public string Responsable { get; set; }
