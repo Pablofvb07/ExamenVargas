@@ -1,7 +1,7 @@
-﻿using ExamenVargas.Models;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
+using ExamenVargas.Models;
 using ExamenVargas.Services;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;

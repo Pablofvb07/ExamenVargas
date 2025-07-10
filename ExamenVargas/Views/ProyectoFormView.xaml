@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ExamenVargas.ViewModels"
+             x:Class="ExamenVargas.Views.ProyectoFormView"
+             Title="Pablo Vargas - 07/10/2004">
+
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Entry Placeholder="Nombre del Proyecto" Text="{Binding NombreProyecto}" />
+            <Entry Placeholder="Responsable" Text="{Binding Responsable}" />
+            <Entry Placeholder="Progreso (%)" Keyboard="Numeric" Text="{Binding Progreso}" />
+            <Entry Placeholder="Duración (días)" Keyboard="Numeric" Text="{Binding DuracionDias}" />
+            <Button Text="Guardar Proyecto"
+        Command="{Binding GuardarCommand}" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
